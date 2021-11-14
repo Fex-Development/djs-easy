@@ -2,6 +2,7 @@
 same examples
  
 # TICTACTOE
+
 ```js
 const { TicTacToe } = require('minigames-discord')
 const game = new TicTacToe({
@@ -16,28 +17,36 @@ game.start()
 ```
 
 # SNAKE
+
+```js
 const {GuildMember, Message} = require('discord.js')
 const minigames = require('minigames-discord')
 let Snake = new minigames.SnakeGame(Message)
 Snake.startSnake(GuildMember)
+```
 
 # ROCKPAPERSCISSORS
 
+```js
 const { RockPaperScissors } = require('minigames-discord')
 const game = new RockPaperScissors({
   message: message,
 })
 game.start()
+```
 
 # BATTLE
-
+```js
 const {GuildMember, Message} = require('discord.js')
 const minigames = require('minigames-discord')
 minigames.startBattle(GuildMember, Message)
+```
 
-#ISPY
+# ISPY
 
+```js
 const {GuildMember, Message} = require('discord.js')
-const minigames = require('minigames-discord')
+const minigames = require('discord-minigames')
 let ISpy = new minigames.ISpy(Message)
 ISpy.startISpy(GuildMember)
+```
