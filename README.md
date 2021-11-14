@@ -2,6 +2,7 @@
 same examples
  
 # TICTACTOE
+```js
 const { TicTacToe } = require('minigames-discord')
 const game = new TicTacToe({
   message: message,
@@ -12,6 +13,7 @@ const game = new TicTacToe({
   embedDescription: 'Tic Tac Toe', // The Description of the embed
 })
 game.start()
+```
 
 # SNAKE
 const {GuildMember, Message} = require('discord.js')
