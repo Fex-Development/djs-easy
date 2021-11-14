@@ -1,5 +1,5 @@
 {
-  "name": "minigamesdiscord",
+  "name": "minigames-discord",
   "version": "1.0.0",
   "description": "a simple minigame package for discord.js",
   "main": "src/index.js",
@@ -15,9 +15,12 @@
     "discord"
   ],
   "author": "NIGHTMAREGODS",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nightmaregodss/minigames_discord/issues"
   },
-  "homepage": "https://github.com/Nightmaregodss/minigames_discord#readme"
+  "homepage": "https://github.com/Nightmaregodss/minigames_discord#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
 }
