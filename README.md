@@ -1,5 +1,10 @@
 # minigames_discord
 same examples
+
+# INSTALLING
+```sh
+$ npm install discord-minigames
+```
  
 # TICTACTOE
 
