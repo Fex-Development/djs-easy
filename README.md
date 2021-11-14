@@ -1,10 +1,12 @@
 # minigames-discord
-same examples
+`minigames-discord` is a javascript minigame package for discord with the minigames needed for your bot.
 
 # INSTALLING
 ```sh
 $ npm install minigames-discord
 ```
+
+# some examples
  
 # TICTACTOE
 
