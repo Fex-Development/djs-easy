@@ -1,9 +1,9 @@
-# minigames_discord
+# minigames-discord
 same examples
 
 # INSTALLING
 ```sh
-$ npm install discord-minigames
+$ npm install minigames-discord
 ```
  
 # TICTACTOE
