@@ -1,7 +1,7 @@
 {
-  "name": "minigames-discord",
-  "version": "1.0.1",
-  "description": "a simple minigame package for discord.js",
+  "name": "djs-easy",
+  "version": "1.0.0",
+  "description": "djs-easy is a javascript package for discord with the a lot stuff you need to make your bot programming easy",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,15 +12,32 @@
   },
   "keywords": [
     "minigames",
+    "easy",
+    "tickets",
+    "modmail",
+    "snake",
+    "rps",
+    "minigames system",
+    "discord minigames",
+    "discord-minigames",
+    "moderation",
+    "easy",
+    "discord js",
+    "modmail easy",
+    "ticket system",
+    "modmail system",
+    "discord.js",
     "discord"
   ],
   "author": "NIGHTMAREGODS",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nightmaregodss/minigames_discord/issues"
+    "url": "https://github.com/Nightmaregodss/djs-easy/issues"
   },
-  "homepage": "https://github.com/Nightmaregodss/minigames_discord#readme",
+  "homepage": "https://github.com/Nightmaregodss/djs-easy#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
-  }
+    "discord.js": "^12.5.3",
+    "enmap": "^5.8.7"
+  },
+  "devDependencies": {}
 }

@@ -1,12 +1,16 @@
-
-//BATTLES
-const { createBattle } = require("./battle")
-module.exports.startBattle = async function (member, message) { return createBattle(member, message) }
-//I SPYS
-module.exports.ISpy = require("./ispy")
 //SNAKE GO BRRRRR
-module.exports.SnakeGame = require('./games/snake-game')
+module.exports.SnakeGame = require('./snake')
 //TICTACTOE
-module.exports.TicTacToe = require('./games/tictactoe-game')
+module.exports.TicTacToe = require('./tictactoe')
 //ROCKPAPERSCISSORS
-module.exports.RockPaperScissors = require('./games/rps-game')
+module.exports.RockPaperScissors = require('./rps')
+//TICKET
+module.export.setup = require('./ticket')
+//TICKET START
+module.export.start = require('./ticket')
+//TICKET CLOSE
+module.export.close = require('./ticket')
+//MODMAIL
+module.exports.ModMail = require('./modmail')
+//CHATBOT
+module.exports.Chatbot = require('chatbot')
