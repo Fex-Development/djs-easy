@@ -32,7 +32,7 @@ let Snake = new minigames.SnakeGame(Message)
 Snake.startSnake(GuildMember)
 ```
 # TICKET
-## const djs-easy = require('djs-easy')
+## const ts = require('djs-easy')
 ## Initialising (Mandatory)
 ```js
 ts.start(client)
@@ -105,7 +105,7 @@ djseasy.ModMail(client, {
 ```js
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const Chat = require("easy-discord-chatbot");
+const Chat = require("djs-easy");
 const chat = new Chat({ name: "your bot name" });
 
 client.on("ready", () => {
