@@ -121,3 +121,65 @@ client.on("message", async message => {
 
 client.login("Your Token Here");
 ```
+
+# Command Handler(Latest)(easy full setup)
+Launch your bot along with the handler.
+```js
+const handler = require('djs-easy');
+const token = 'xxxxxxxxxxxxxxxxxxxxxxx'; // your bot token
+
+let client = handler(__dirname + '/commands', token, { customPrefix: '-', clientOptions: { disableEveryone: true } });
+
+client.on('ready', () => {
+	console.log(client.user.username + ' has successfully booted up.');
+});
+```
+Login when you choose (supply a Client instance instead of a token).
+```js
+const { Client } = require('discord.js');
+const handler = require('djs-easy');
+const token = 'xxxxxxxxxxxxxxxxxxxxxxx'; // your bot token
+
+let client = new Client({ disableEveryone: true });
+
+client.on('ready', () => {
+	console.log(client.user.username + ' has successfully booted up.');
+});
+
+handler(__dirname + '/commands', client, { customPrefix: '-' });
+
+client.login(token);
+```
+Example command.
+```js
+module.exports = {
+	id: 'ping',
+	aliases: ['pong'], // defaults to []
+	channels: 'any', // defaults to 'any'. options are: 'dm', 'guild', 'any'.
+	// 'call' is an instance of the Call class, a class containing various properties and utility functions.
+	exec: (call) => {
+		call.message.channel.send('Pong! ' + Math.round(call.client.ping) + 'ms D-API delay.');
+	}
+};
+```
+Example command using the prompt function.
+```js
+module.exports = {
+	id: 'dogcat',
+	exec: (call) => {
+		call.prompt('is dog you fav or cat is your fav',
+			{ time: 60000 }).then((msg) => {
+				// Resolves with the response.
+				if (msg.content.toLowerCase() === 'dog')
+					call.message.channel.send('Boow! Mine too!');
+				else
+					call.message.channel.send('Boow!');
+			}).catch((exc) => {
+				// Rejects when the command is cancelled, out of time, or surpasses the maximum amount of attempts.
+				// In this case surpassing the maximum amount of attempts is impossible since there is no filter.
+				call.message.channel.send('Cancelled prompt.');
+			});
+	}
+};
+```
+# if you find any problom report it in (https://github.com/Nightmaregodss/djs-easy/issues)          if you have any suggestions add me in discord (Demon Emperor NightmareGods#2086)

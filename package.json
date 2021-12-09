@@ -1,6 +1,6 @@
 {
   "name": "djs-easy",
-  "version": "1.1.0",
+  "version": "1.1.0-pre",
   "description": "djs-easy is a javascript package for discord with the a lot stuff you need to make your bot programming easy",
   "main": "src/index.js",
   "scripts": {

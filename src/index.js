@@ -1,17 +1,18 @@
-//SNAKE GO BRRRRR
+// SNAKE GO BRRRRR
 module.exports.SnakeGame = require('./snake')
-//TICTACTOE
+// TICTACTOE
 module.exports.TicTacToe = require('./tictactoe')
-//ROCKPAPERSCISSORS
+// ROCKPAPERSCISSORS
 module.exports.RockPaperScissors = require('./rps')
-//TICKET
+// TICKET
 module.export.setup = require('./ticket')
-//TICKET START
+// TICKET START
 module.export.start = require('./ticket')
-//TICKET CLOSE
+// TICKET CLOSE
 module.export.close = require('./ticket')
-//MODMAIL
+// MODMAIL
 module.exports.ModMail = require('./modmail')
-//CHATBOT
+// CHATBOT
 module.exports.Chatbot = require('chatbot')
-//coming soon
+// command handler for v13
+module.export.Handler = require('./handler/index.js')
