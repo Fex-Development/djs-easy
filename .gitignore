@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .main.sh
 .node_modules
 =======
@@ -9,3 +10,6 @@ node_modules
 node_modules
 >>>>>>> origin/main
 .src/Button
+=======
+node_modules
+>>>>>>> origin/main
