@@ -20,3 +20,7 @@ module.export.handler = require('./handler/index.js')
 module.export.slashhandler = require('./slashhandler/index.js')
 // embed builder works for v12 or above
 module.export.embedbuilder = require('./embedbuilder.js')
+// discord.js buttons works for v13 or above
+module.export.Button = require('./Button/Button.js')
+module.export.ButtonMenu = require('./Button/ButtonMenu.js')
+module.export.Buttonpage = require('./Button/ButtonPage.js')
