@@ -14,5 +14,9 @@ module.export.close = require('./ticket')
 module.exports.ModMail = require('./modmail')
 // CHATBOT
 module.exports.Chatbot = require('chatbot')
-// command handler for v13
-module.export.Handler = require('./handler/index.js')
+// command handler for v13 or above
+module.export.handler = require('./handler/index.js')
+// slash command handler for v13 or above
+module.export.slashhandler = require('./slashhandler/index.js')
+// embed builder works for v12 or above
+module.export.embedbuilder = require('./embedbuilder.js')
