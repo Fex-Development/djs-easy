@@ -2,7 +2,7 @@
 `djs-easy` is a javascript package for discord with the a lot stuff you need to make your bot programming easy.
 
 # Owns
-`djs-easy` is owned by [*Fex Development*](https://discord.gg/d3eACkqyyT) and it needs developer join there [Discord](https://discord.gg/d3eACkqyyT) to apply!!!
+`djs-easy` is owned by [*Fex Development*](https://fexhub.site) and it needs developer join there [Discord](https://discord.gg/d3eACkqyyT) to apply!!!
 
 # NOTICE 
 only available for node.js v16 or above.
