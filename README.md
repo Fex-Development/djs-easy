@@ -1,4 +1,5 @@
 # djs-easy
+# Reached EOL
 `djs-easy` is a javascript package for discord with the a lot stuff you need to make your bot programming easy.
 
 # Owns
